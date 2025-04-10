@@ -43,6 +43,8 @@
 // Make async trait docs not-ugly on docs.rs (https://github.com/dtolnay/async-trait/issues/213)
 #![cfg_attr(docsrs, feature(async_fn_in_trait))]
 
+pub use s3_crt_client::*;
+
 mod build_info;
 pub mod checksums;
 mod endpoint_config;
