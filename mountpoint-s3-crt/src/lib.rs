@@ -6,6 +6,9 @@
     rustdoc::broken_intra_doc_links
 )]
 
+// Add Rust re export in order to use these libs elsewhere
+pub use s3_crt_client::*;
+
 //! Rust bindings for the AWS Common Runtime.
 
 use mountpoint_s3_crt_sys::*;
