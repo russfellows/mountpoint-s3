@@ -7,7 +7,7 @@
 )]
 
 // Add Rust re export in order to use these libs elsewhere
-pub use s3_crt_client::*;
+//pub use s3_crt_client::*;
 
 //! Rust bindings for the AWS Common Runtime.
 
